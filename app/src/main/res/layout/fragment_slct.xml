@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:gravity="center_horizontal"
+        android:text="Select Speciality"
+        android:textColor="@android:color/black"
+        android:textSize="28dp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/cardio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Cardiologist"
+            android:textSize="23dp"/>
+        <RadioButton
+            android:id="@+id/dermat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Dermatologist"
+            android:textSize="23dp"/>
+        <RadioButton
+            android:id="@+id/ortho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Orthopaedic"
+            android:textSize="23dp"/>
+        <RadioButton
+            android:id="@+id/neuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Neurologist"
+            android:textSize="23dp"/>
+        <RadioButton
+            android:id="@+id/genpract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="General Practitioner"
+            android:textSize="23dp"/>
+    </RadioGroup>
+
+</RelativeLayout>

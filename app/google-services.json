@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "957548488241",
+    "firebase_url": "https://minor-348a4.firebaseio.com",
+    "project_id": "minor-348a4",
+    "storage_bucket": "minor-348a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957548488241:android:0ff126166b594687",
+        "android_client_info": {
+          "package_name": "com.vector.medicus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957548488241-qduvimj1gkj6otuqk067p6b6ct6ihtca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs2NiDSpTg8nLvXugZQJ6-D-px2tjE91U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957548488241:android:1df5bdfdb37c8b93",
+        "android_client_info": {
+          "package_name": "com.vector.medicus1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957548488241-qduvimj1gkj6otuqk067p6b6ct6ihtca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs2NiDSpTg8nLvXugZQJ6-D-px2tjE91U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

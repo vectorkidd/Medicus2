@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Medicus</string>
+    <string name="title_activity_paxprof">paxprof</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">logout</string>
+    <string name="offlinehlp">HOW DO I MAKE A FIRST AID KIT?\n
+        A well-stocked first aid kit is a must-have for treating minor injuries at home and on the go. You can buy a first aid kit or put one together on your own. Keep your supplies in a sturdy, clear plastic box so you can see what/’s inside.\n\n What should be in my first aid kit?\n
+
+1)Adhesive tape\n
+2)Alcohol wipes\n
+3)Allergy medicine\n
+4)Aloe vera gel\n
+5)Antibiotic ointment\n
+6)Bandages in different sizes\n
+7)Calamine lotion\n
+8)Hand sanitizer\n\n
+        How do I treat a minor cut or scrape?\n
+
+Follow these steps to keep cuts clean and prevent infections and scars.\n
+
+1)Wash your hands.\n First, wash up with soap and water so you don’t get bacteria into the cut and cause an infection. If you’re on the go, use hand sanitizer.\n
+2)Stop the bleeding.\n Put pressure on the cut with a gauze pad or clean cloth. Keep the pressure on for a few minutes.\n
+3)Clean the wound. Once you’ve stopped the bleeding, rinse the cut under cool running water or use a saline wound wash. Clean the area around the wound with soap and a wet washcloth. Don’t get soap in the cut, because it can irritate the skin. And don’t use hydrogen peroxide or iodine, which could irritate the cut.\n
+4)Remove any dirt or debris.\n Use a pair of tweezers cleaned with alcohol to gently pick out any dirt, gravel, glass, or other material in the cut.\n\n
+</string>
+    <string name="title_activity_docproff">Docproff</string>
+    <string name="tab_text_1">My Profile</string>
+    <string name="tab_text_2">Schedule</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

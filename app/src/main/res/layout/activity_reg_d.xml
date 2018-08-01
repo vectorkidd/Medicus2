@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logoc"
+    android:layout_centerHorizontal="true"
+    tools:context="com.vector.medicus1.RegD">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dfullname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:hint="Please Fill in your details"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/dfullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ddob"
+        android:layout_alignStart="@+id/ddob"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ddob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dgender"
+        android:layout_alignStart="@+id/dgender"
+        android:ems="10"
+        android:hint="Date Of Birth"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/dgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/speciality"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/speciality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dgender"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Speciality"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/dhospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/speciality"
+        android:layout_below="@+id/speciality"
+        android:ems="10"
+        android:hint="Hospital"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/linum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dhospital"
+        android:layout_below="@+id/dhospital"
+        android:ems="10"
+        android:hint="License Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/dsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dsave"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="Already a member?"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textVi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textv"
+        android:layout_toEndOf="@+id/textv"
+        android:text="Click Here"
+        android:textColor="#FF00"
+        android:textSize="20dp" />
+
+</RelativeLayout>
